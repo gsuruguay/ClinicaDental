@@ -1,0 +1,184 @@
+.maincontainer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.maincontainer h1 {
+    margin: 5px 0 0 0;
+    font-size: 2.2rem;
+    color: $color2;
+}
+
+.maincontainer h2 {
+    color: white;
+    margin-top: 70px;
+    font-size: 1.3rem;
+    margin: 10px 0 10px 0;
+}
+
+.maincontainer h3 {
+    color: white;
+    margin-top: 70px;
+    font-size: 1.1rem;
+    margin: 0 0 40px 0;
+}
+
+.maincontainer p {
+    color: $color2;
+    font-size: 1.1rem;
+    margin: 30px auto;
+}
+
+.planLink {
+    color: $color1;
+    margin-top: 70px;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    text-decoration: none;
+    background-color: $color3;
+    padding: 20px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.planLink:hover {
+    background-color: $color6;
+}
+
+.leftinfo {
+    width: 20%;
+    height: 800px;
+}
+
+.maincare {
+    width: 80%;
+    height: 800px;
+    margin-left: 50px;
+}
+
+.slider {
+    width: 100%;
+    padding-bottom: 60px;
+    background-image: url('../img/mainphototwoa.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.slider h1 {
+    color: white;
+    margin: 70px 0 10px 0;
+    font-size: 3rem;
+}
+
+.doctosprofile {
+    display: flex;
+    justify-content: center;
+    color: $color2;
+    flex-wrap: wrap;
+}
+
+.doctosprofile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 50px 20px 50px;
+}
+
+.doctosprofile-info h4 {
+    font-size: 1.8rem;
+    margin: 10px 0 5px 0;
+}
+
+.doctosprofile-info h5 {
+    font-size: 1rem;
+    margin: 5px 0 0 0;
+    width: 200px;
+}
+
+.profilePhoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: 200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+}
+
+.doct1 {
+    background-image: url('../img/doct1.jpg');
+}
+
+.doct2 {
+    background-image: url('../img/doct2.jpg');
+}
+
+.doct3 {
+    background-image: url('../img/doct3.jpg');
+}
+
+.servicios-content {
+    
+    
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicios-content-content {
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+
+
+.servicios-med {
+    margin: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: $white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicios-med img {
+    width: 190px;
+    height: 150px;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.514);
+}
+
+.servicios-med p {
+    width: 190px;
+    color: $color2;
+    
+}
+.title-doctprof {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-doctprof p {
+    font-size: 1.1rem;
+}
+
+.title-doctprof {
+    color: $color2 ;
+}
+
+.title-doctprof h2 {
+    color: $color2;
+    font-size: 2.2rem;
+}

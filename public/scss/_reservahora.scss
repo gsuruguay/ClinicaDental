@@ -1,0 +1,47 @@
+@media screen and (max-width: 720px){
+    
+    .reservaHora {
+        display: none;
+    }
+
+}
+
+.reservaHora {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -8em;
+    background-color: $color3;
+    text-align: center;
+    padding: 10px 40px 40px 40px;
+    border-radius: 20px 0 0 20px;
+  }
+
+
+
+.reservaHora p{
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+.reservaHora .clock {
+    margin: 0 auto;
+    width: 60%;
+    height: 85px;
+    background-image: url('../img/clock.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reservaHora a{
+    
+    color: $white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: $color2;
+    
+}

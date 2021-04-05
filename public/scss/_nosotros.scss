@@ -1,0 +1,18 @@
+.AboutContainer {
+    max-width: 80%;
+    margin: 5px auto;
+}
+
+#doctorimg {
+    float:left;
+}
+
+@media screen and (max-width: 590px){
+    #doctorimg {
+        display:none;
+    }
+}
+
+.AboutContainer h1 {
+    padding-top: 50px;
+}

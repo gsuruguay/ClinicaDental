@@ -1,0 +1,38 @@
+.contactform h2 {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 15px 0;
+    color: $color2
+}
+
+.contactform form {
+    width: 480px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.contactform form input, textarea {
+    border: 1px solid $color6;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+.g-recaptcha {
+    display: inline-block;
+}
+
+#btncontact {
+    background-color: $color1;
+    color: $white;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 590px){
+    .contactform form {
+        width: 100%;
+    }
+}

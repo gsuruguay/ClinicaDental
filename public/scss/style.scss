@@ -1,0 +1,43 @@
+$color1: #30C6B6;
+$color2: #20868F;
+$color3: #20868f81;
+$color4: #84BFC4;
+$color5: #11727a;
+$color6: rgba(0, 128, 128, 0.568);
+$white: #FFFFFF;
+
+@use 'var';
+@import 'reservahora';
+@import 'headermenu';
+@import 'navs';
+@import 'maincontainer';
+@import 'footer';
+@import 'nosotros';
+@import 'contactform';
+
+
+
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 200px;
+    /* The height is 400 pixels */
+    width: 250px;
+    /* The width is the width of the web page */
+  }
+  
+  
+  @media screen and (max-width: 590px){
+
+    .slider h1 {
+        font-size: 2.5rem;
+    }
+
+
+}

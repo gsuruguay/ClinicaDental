@@ -1,0 +1,164 @@
+.footer li{
+    padding-top: 30px;
+}
+.footer a{
+    font-size: 1.4rem;
+    color: $color2;
+    text-decoration: none;
+    text-align: left;
+}
+
+.footer ul li {
+    text-align: left;
+}
+
+.footer ul li ul {
+    display: block;
+    padding: 0;
+    text-align: left;
+    word-wrap:normal;
+    margin: 0;
+}
+
+.footer ul li ul li{
+padding-top: 8px;
+font-weight: 600;
+color: $color2;
+display: block;
+margin: 0;
+}
+
+.footer ul li ul li a {
+    font-size: 1rem;
+}
+
+.footer {
+    background-color: $color6;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.footer li{
+    padding-top: 30px;
+}
+.footer a{
+    font-size: 1.4rem;
+    color: $color2 ;
+    text-decoration: none;
+    text-align: left;
+}
+
+.footer ul li {
+    text-align: left;
+}
+
+.footer ul li ul {
+    display: block;
+    padding: 0;
+    text-align: left;
+    word-wrap:normal;
+    margin: 0;
+}
+
+.footer ul li ul li{
+padding-top: 8px;
+font-weight: 600;
+color: $color2;
+display: block;
+margin: 0;
+}
+
+.footer ul li ul li a {
+    font-size: 1rem;
+}
+
+.derechos {
+    color: $color2;
+    padding: 5px;
+    background-color: $color6;
+    display: flex;
+    justify-content: center;
+}
+.derechos a {
+  padding: 10px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  float: right;
+}
+
+.derechos p {
+  float:left;
+}
+
+.footerblock {
+  display:none !important;
+}
+
+@media screen and (max-width: 590px){
+    
+    .footerblock {
+        display:inline-block !important;
+        color: $color2;
+        margin-right: 5px;
+    } 
+
+    .footer ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    
+        }
+    
+        .footer li{
+            padding-top: 30px;
+        }
+    
+        .footer a{
+            font-size: 1.4rem;
+            color: $color2 ;
+            text-decoration: none;
+            text-align: left;
+        }
+        
+        .footer ul li {
+            text-align: left;
+        }
+        
+        .footerdropdown {
+            display: block;
+            padding: 0;
+            text-align: left;
+            word-wrap:normal;
+            margin: 0;
+        }
+    
+        .fdropdownnone {
+            display: none !important;
+        }
+        
+        .footerdropdown li{
+        padding-top: 8px;
+        font-weight: 600;
+        color: $color2;
+        display: block;
+        margin: 0;
+        }
+        
+        .footerdropdown li a {
+            font-size: 1rem;
+        }
+
+}
