@@ -22,7 +22,6 @@
 
 .footer ul li ul li{
 padding-top: 8px;
-font-weight: 600;
 color: $color2;
 display: block;
 margin: 0;
@@ -68,16 +67,9 @@ margin: 0;
     margin: 0;
 }
 
-.footer ul li ul li{
-padding-top: 8px;
-font-weight: 600;
-color: $color2;
-display: block;
-margin: 0;
-}
-
-.footer ul li ul li a {
-    font-size: 1rem;
+.footer ul p {
+    font-weight: 400;
+    display: inline;
 }
 
 .derechos {
@@ -92,6 +84,7 @@ margin: 0;
   font-size: 1.6rem;
   text-decoration: none;
   float: right;
+  color: $color2;
 }
 
 .derechos p {

@@ -45,6 +45,7 @@
                 <li id="menuicon"><span class="menuicon"><a href="#"></a></span>
                     <ul id="menu-mobile" class="d-none">
                         <li><a href="{{route('home')}}">Home</a></li>
+                        <li><a href="{{route('plans')}}">Planes</a></li>
                         <li><a href="{{route('contact.index')}}">Contacto</a></li>
                         <li><a href="{{route('about')}}">Nosotros</a></li>
                     </ul>
@@ -77,7 +78,7 @@
                 <ul class="headernav">
                     <li class="logo"><a href="{{route('home')}}"></a></li>
                     <li><a href="{{route('home')}}" class="headeritem">Home</a></li>
-                    <li><a href="#" class="headeritem">Planes</a></li>
+                    <li><a href="{{route('plans')}}" class="headeritem">Planes</a></li>
                     <li><a href="#" class="headeritem">Medicos</a></li>
                     <li><a href="{{route('contact.index')}}" class="headeritem">Contacto</a></li>
                     <li><a href="{{route('about')}}" class="headeritem">Nosotros</a></li>
@@ -119,10 +120,10 @@
             <li class="footerLinks"><i class="fas fa-chevron-down fa-xs footerblock"></i>
                 <a href="javascript:void(0)">Contacto</a>
                 <ul class="footerdropdown fdropdownnone">
-                    <li class="fas fa-map-marked-alt"> Avenida Providencia 3335.</li>
-                    <li class="fas fa-phone-alt"> 2 2224 9384</li>
-                    <li class="fab fa-whatsapp"> +56 999 046 425</li>
-                    <li class="fas fa-envelope"> contacto@clinicacatalina.cl</li>
+                    <li class="fas fa-map-marked-alt"> <p>Avenida Providencia 3335.</p></li>
+                    <li class="fas fa-phone-square-alt fa-w-14"> <p>2 2224 93840</p></li>
+                    <li class="fab fa-whatsapp"> <p>+56 999 046 425</p></li>
+                    <li class="fas fa-envelope"> <p>contacto@clinicacatalina.cl</p></li>
                 </ul>
             </li>
             <li>

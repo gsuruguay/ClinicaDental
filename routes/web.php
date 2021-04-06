@@ -20,5 +20,6 @@ Route::get('/', function () {
 })->name('home');
 
 Route::view('nosotros', 'about')->name('about');
+Route::view('planes', 'plans')->name('plans');
 Route::get('contacto', [ContactController::class, 'index'])->name('contact.index');
 Route::post('contacto', [ContactController::class, 'send'])->name('contact.send');
